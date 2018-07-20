@@ -68,9 +68,16 @@ main p {
     margin-top: 15px;
     text-align: left;
 }
+article ol {
+    padding-left: 30px;
+}
+article li {
+    line-height: 22px;
+    margin-bottom: 5px;
+}
 
 article h2 {
-    font: bold 25px "Open Sans Condensed", sans-serif;
+    font: bold 36px/30px "Open Sans Condensed", sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
     color: black;
@@ -256,4 +263,13 @@ article {
 }
 article div img {
     width: 100%;
+}
+@media only screen and (max-width:800px) {
+    article h1 {
+        font-size: 30pt;
+        line-height: 40px;
+    }
+    article {
+        padding: 0 5px 0 10px;
+    }
 }
